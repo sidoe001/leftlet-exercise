@@ -27,7 +27,7 @@
 
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
-    center: [25.992256880669512, -80.33985720333467], // EDITED coordinates to re-center map
+    center: [26, -80.34], // EDITED coordinates to re-center map
     zoom: 12,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
     scrollWheelZoom: false
   });
@@ -41,7 +41,7 @@
   }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([25.992256880669512, -80.33985720333467]).addTo(map) // FIU-I-75 coordinates
+  L.marker([26, -80.34]).addTo(map) // FIU-I-75 coordinates
   .bindPopup("FIU at I-75, where I met my best friend."); // pop-up text message
 
   </script>
